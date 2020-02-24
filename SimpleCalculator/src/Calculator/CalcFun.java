@@ -10,5 +10,12 @@ package Calculator;
  * @author Phillip
  */
 public class CalcFun {
-    
+    // Testfunktion:
+    // Gibt ein Test-String zurück
+    public String getTestString()
+    {
+        String Test = "Hallo 123";
+        
+        return Test;
+    }
 }
