@@ -48,6 +48,8 @@ public class GUI extends javax.swing.JFrame {
         jButton17 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("SimpleCalculator");
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         GUI_Display.setColumns(17);
         GUI_Display.setFont(new java.awt.Font("Monospaced", 0, 36)); // NOI18N
